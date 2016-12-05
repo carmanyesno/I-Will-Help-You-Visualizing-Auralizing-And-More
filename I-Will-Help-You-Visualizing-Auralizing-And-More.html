@@ -594,7 +594,7 @@ $(function(){
       var msg = new SpeechSynthesisUtterance();
       var voices = window.speechSynthesis.getVoices();
       msg.voice = voices[$('#voices').val()];
-      msg.rate = 10;
+      msg.rate = 3;
       msg.pitch = 1;
       msg.text = text;
 
